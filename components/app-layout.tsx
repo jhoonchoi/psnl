@@ -75,7 +75,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         {children}
       </main>
 
-      <footer className="bg-gray-800 text-white py-4">
+      <footer className="bg-gray-800 text-white py-2">
         <div className="container mx-auto px-6 text-center">
           © {new Date().getFullYear()} Psychopathology & Social Neuroscience Lab. All rights reserved.
         </div>
